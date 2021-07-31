@@ -1,0 +1,396 @@
+@media (max-width: 600px) {
+  header {
+    height: 80vh !important;
+  }
+  header section {
+    padding-top: 180px !important;
+  }
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-mine {
+  background-color: #0a1931;
+}
+
+.navbar .nav-item a {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #ffffff !important;
+  margin-right: 30px;
+}
+
+.navbar .nav-item a:hover {
+  color: #ffc947 !important;
+}
+
+.navbar .btn-contact {
+  border: 2px solid #ffc947;
+  color: #ffc947;
+  margin-right: 20px;
+}
+
+.navbar .btn-contact:hover {
+  background-color: #ffc947;
+  color: #0a1931;
+}
+
+header {
+  margin-top: -59px;
+  background: url("../images/bg@2x.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+header section {
+  padding-top: 220px;
+}
+
+header section h1 {
+  font-family: "Roboto Slab", serif;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 0.05em;
+}
+
+header section h3 {
+  font-family: "Roboto", sans-serif;
+  color: #ffc947;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+header section p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #feddbe;
+  margin-top: 15px;
+}
+
+header section hr {
+  width: 305px;
+  border: 1px solid #ffc947;
+  margin-left: 0px;
+}
+
+header section .btn-selengkapnya {
+  margin-top: 10px;
+  background-color: #ffc947;
+  color: #0a1931;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 23px;
+}
+
+header section .btn-selengkapnya:hover {
+  background-color: #ffdb83;
+}
+
+.bar {
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: -70px;
+  border: 1px solid #afafaf;
+}
+
+.bar .stat {
+  border-right: 1px solid #0a1931;
+}
+
+.bar h3 {
+  font-size: 40px;
+  font-size: normal;
+}
+
+.bar p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.about {
+  margin-top: 100px;
+}
+
+.about p {
+  font-size: 20;
+  color: #ffc947;
+  font-weight: normal;
+}
+
+.about h3 {
+  font-weight: 500;
+  font-size: 40px;
+  color: #0a1931;
+  margin-top: -15px;
+}
+
+.about hr {
+  border: 1px solid #0a1931;
+}
+
+.about .bio {
+  margin-top: 30px !important;
+}
+
+.about .bio p {
+  font-weight: 300;
+  font-size: 20px;
+  color: #0a1931;
+}
+
+.about .btn-instagram {
+  margin-top: 10px;
+  background: #0a1931;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.about .btn-instagram:hover {
+  background-color: white;
+  color: #0a1931;
+  border: 1px solid #0a1931;
+}
+
+.about .customer {
+  margin-top: 40px !important;
+}
+
+.about .customer .container-service {
+  margin-top: 15px;
+  padding-top: 20px;
+}
+
+.about .customer .container-service img {
+  float: left;
+  margin-right: 25px;
+}
+
+.about .customer .container-service .text h5 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #0a1931;
+}
+
+.about .customer .container-service .text p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #0a1931;
+}
+
+.about .customer .container-service .text hr {
+  margin-top: 20px;
+  border: 1px solid #afafaf;
+}
+
+.about .customer .container-service:hover {
+  background-color: #f3f3f3;
+}
+
+.services {
+  margin-top: 100px;
+  background-color: #0a1931;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.services .services-header p {
+  font-size: 20;
+  color: #ffc947;
+  font-weight: normal;
+}
+
+.services .services-header h3 {
+  font-weight: 500;
+  font-size: 40px;
+  color: #ffffff;
+  margin-top: -15px;
+}
+
+.services .card {
+  height: 513px;
+  border: 1px solid #707070;
+  margin-top: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.services .card:hover {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+
+.services .card .card-header {
+  padding: 20px 0px;
+  font-weight: normal;
+  font-size: 30px;
+  color: #0a1931;
+}
+
+.services .card .ch-yellow {
+  background-color: #ffc947;
+}
+
+.services .card .ch-orange {
+  background-color: #ff9d47;
+}
+
+.services .card .ch-red {
+  background-color: #ff4c47;
+}
+
+.services .card .content-header p {
+  font-weight: 500;
+  font-size: 30px;
+  color: #0a1931;
+  margin-top: 25px;
+}
+
+.services .card .content-header hr {
+  width: 204px;
+  border: 1px solid #0a1931;
+}
+
+.services .card .detail {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.services .card .detail img {
+  float: left;
+  margin-right: 10px;
+}
+
+.services .card .detail p {
+  margin-top: -5px;
+  font-weight: normal;
+  font-size: 20px;
+  color: #0a1931;
+}
+
+.services .card .ps {
+  margin-left: 40px;
+  font-weight: 300;
+  font-size: 12px;
+  color: #0a1931;
+}
+
+.contact {
+  margin-top: 100px;
+}
+
+.contact .contact-header p {
+  font-size: 20;
+  color: #ffc947;
+  font-weight: normal;
+}
+
+.contact .contact-header h3 {
+  font-weight: 500;
+  font-size: 40px;
+  color: #0a1931;
+  margin-top: -15px;
+}
+
+.contact .contact-header hr {
+  border: 1px solid #0a1931;
+}
+
+.contact .contact-content {
+  margin-top: 35px;
+}
+
+.contact .contact-content img {
+  float: left;
+  margin-right: 15px;
+}
+
+.contact .contact-content p {
+  margin-top: 1px;
+}
+
+.contact .contact-content .nope {
+  margin-top: -20px;
+  font-weight: bold;
+}
+
+.contact .contact-content hr {
+  width: 212px;
+  border: 1px solid #afafaf;
+  margin-left: 0;
+}
+
+.contact .socmed p {
+  margin-top: 35px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #0a1931;
+}
+
+.contact .socmed a {
+  text-decoration: none;
+}
+
+.contact .socmed img {
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.contact .side {
+  margin-top: 120px;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: #0a1931;
+  padding-top: 35px;
+}
+
+footer .foot-image img {
+  max-height: 20px;
+}
+
+footer .foot-image h5 {
+  margin-top: 15px;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #fff;
+}
+
+footer h5 {
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+}
+
+footer p {
+  margin-top: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer .socmed img {
+  max-height: 20px;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=style.css.map */
